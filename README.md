@@ -15,6 +15,15 @@ Welcome to **AI Mock Interview**, your AI-powered interview preparation platform
 
 ---
 
+## 🎯 How It Works
+
+1. User selects **Job Role, Experience Level, and Tech Stack**.
+2. AI generates **5 relevant interview questions**.
+3. User submits answers.
+4. AI **analyzes responses** and provides **feedback and a rating**.
+
+---
+
 ## 🛠 Tech Stack
 
 - **AI Model**: Google Gemini for question generation and response evaluation.
@@ -23,8 +32,38 @@ Welcome to **AI Mock Interview**, your AI-powered interview preparation platform
 - **Frontend**: React.js / Next.js for UI.
 - **Database**: Firestore for storing user interactions and results.
 
+
 ---
 
+##  Login Page
+![login](https://github.com/user-attachments/assets/b1bf8439-90af-4ca3-b3a7-bb00674be27f)
+
+
+---
+
+## 🏡 Home Page 
+![home](https://github.com/user-attachments/assets/f346f7a3-540f-4c12-9f87-df8580facb8f)
+
+---
+
+
+
+##  Dashboard
+![dashboard](https://github.com/user-attachments/assets/5623ab07-4859-48fd-8d2b-9e9b97ddf015)
+
+
+---
+---
+
+##  Interview
+![interview](https://github.com/user-attachments/assets/ebccbcbc-0345-403c-afaa-e5fead52fa77)
+
+---
+
+##  Feedback
+![feedbsack](https://github.com/user-attachments/assets/3b593c3d-10b7-49bd-ba73-3d0a2d973d4d)
+
+---
 ## 🏁 Getting Started
 
 ### Clone the Repository:
@@ -45,18 +84,7 @@ npm install
 ### Start the Application:
 ```sh
 npm start
-```
 
----
-
-## 🎯 How It Works
-
-1. User selects **Job Role, Experience Level, and Tech Stack**.
-2. AI generates **5 relevant interview questions**.
-3. User submits answers.
-4. AI **analyzes responses** and provides **feedback and a rating**.
-
----
 
 ## 🤝 Contributing
 
@@ -67,15 +95,11 @@ We welcome contributions! Feel free to:
 
 ---
 
-## 📜 License
 
-This project is licensed under the **MIT License**.
 
----
 
-## 🔗 Live Demo
 
-[Live Demo](your-demo-link.com) 🚀
+
 
 ---
 
