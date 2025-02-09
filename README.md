@@ -1,142 +1,105 @@
-AI Mock Interview 🎤🤖
+ # AI Mock Interview 🎤🤖
 
-🚀 Features
+Welcome to **AI Mock Interview**, your AI-powered interview preparation platform! 🚀
 
-Home Page: Introduction and overview of the platform.
+## 🔥 Features
 
-Contact Us Page: Allows users to reach out for support and inquiries.
+- **Home Page**: Overview and introduction to the platform.
+- **Contact Us Page**: Reach out for support and inquiries.
+- **Services Page**: Details about our interview preparation services.
+- **Take an Interview Route**:
+  - Collects **Job Role, Experience Level, and Tech Stack** from the candidate.
+  - Generates **5 AI-powered interview questions**.
+  - Candidate provides responses to each question.
+  - AI evaluates answers and provides **feedback and ratings**.
 
-Services Page: Details about the interview preparation services offered.
+---
 
-Take an Interview Route: Interactive form to start a mock interview.
+## 🛠 Tech Stack
 
-Collects Job Role, Experience Level, and Tech Stack from the candidate.
+- **AI Model**: Google Gemini for question generation and response evaluation.
+- **Backend**: Firebase for real-time database and authentication.
+- **Authentication**: Clerk for user management and secure login.
+- **Frontend**: React.js / Next.js for UI.
+- **Database**: Firestore for storing user interactions and results.
 
-Generates 5 AI-powered interview questions.
+---
 
-Candidate provides responses to each question.
+## 🏁 Getting Started
 
-AI evaluates answers and provides feedback and ratings.
-
-🛠 Tech Stack
-
-AI Model: Google Gemini for question generation and response evaluation.
-
-Backend: Firebase for real-time database and authentication.
-
-Authentication: Clerk for user management and secure login.
-
-Frontend: React.js / Next.js for UI.
-
-Database: Firestore for storing user interactions and results.
-
-🏁 Getting Started
-
-Clone the repository:
-
+### Clone the Repository:
+```sh
 git clone https://github.com/your-username/ai-mock-interview.git
+```
 
-Navigate to the project directory:
-
+### Navigate to Project Directory:
+```sh
 cd ai-mock-interview
+```
 
-Install dependencies:
-
+### Install Dependencies:
+```sh
 npm install
+```
 
-Start the application:
-
+### Start the Application:
+```sh
 npm start
+```
 
-🎯 How It Works
+---
 
-User selects job role, experience level, and tech stack.
+## 🎯 How It Works
 
-AI generates 5 relevant interview questions.
+1. User selects **Job Role, Experience Level, and Tech Stack**.
+2. AI generates **5 relevant interview questions**.
+3. User submits answers.
+4. AI **analyzes responses** and provides **feedback and a rating**.
 
-User answers the questions.
+---
 
-AI analyzes responses and provides feedback and a rating.
+## 🤝 Contributing
 
-🤝 Contributing
+We welcome contributions! Feel free to:
+- **Fork** the repository.
+- **Submit issues** for feature requests or bug reports.
+- **Open pull requests** to improve the project.
 
-Feel free to fork this repository, submit issues, or contribute by opening pull requests.
+---
 
-📜 License
+## 📜 License
 
-MIT License
+This project is licensed under the **MIT License**.
 
-🔗 Live Demo: your-demo-link.com
+---
 
-📖 README.md File
+## 🔗 Live Demo
 
-This file serves as documentation for the AI Mock Interview application, outlining its features, technology stack, and setup instructions. It ensures that new developers and contributors can quickly understand and deploy the project.
+[Live Demo](your-demo-link.com) 🚀
 
+---
 
-Authentication: Clerk for user management and secure login.
+## 🛠 ESLint Configuration
 
-Frontend: React.js / Next.js for UI.
-
-Database: Firestore for storing user interactions and results.
-
-Getting Started 🏁
-
-Clone the repository:
-
-git clone https://github.com/your-username/ai-mock-interview.git
-
-Navigate to the project directory:
-
-cd ai-mock-interview
-
-Install dependencies:
-
-npm install
-
-Start the application:
-
-npm start
-
-How It Works 🎯
-
-User selects job role, experience level, and tech stack.
-
-AI generates 5 relevant interview questions.
-
-User answers the questions.
-
-AI analyzes responses and provides feedback and a rating.
-
-Contributing 🤝
-
-Feel free to fork this repository, submit issues, or contribute by opening pull requests.
-
-License 📜
-
-MIT License
-
-🔗 Live Demo: your-demo-link.com
-
-nfigs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+For better code quality, follow these ESLint configurations:
 
 ```js
 // eslint.config.js
-import react from 'eslint-plugin-react'
+import tseslint from '@typescript-eslint/eslint-plugin';
+import react from 'eslint-plugin-react';
 
 export default tseslint.config({
-  // Set the react version
   settings: { react: { version: '18.3' } },
   plugins: {
-    // Add the react plugin
     react,
   },
   rules: {
-    // other rules...
-    // Enable its recommended rules
     ...react.configs.recommended.rules,
     ...react.configs['jsx-runtime'].rules,
   },
-})
+});
 ```
+
+---
+
+Happy Coding! 💻✨
