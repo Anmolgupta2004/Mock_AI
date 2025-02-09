@@ -1,31 +1,76 @@
-# React + TypeScript + Vite
+AI Mock Interview 🎤🤖
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI-powered mock interview platform that helps candidates prepare for job interviews by generating role-specific questions, analyzing responses, and providing feedback with ratings.
 
-Currently, two official plugins are available:
+Features 🚀
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Home Page: Introduction and overview of the platform.
 
-## Expanding the ESLint configuration
+Contact Us Page: Allows users to reach out for support and inquiries.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Services Page: Details about the interview preparation services offered.
 
-- Configure the top-level `parserOptions` property like this:
+Take an Interview Route: Interactive form to start a mock interview.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Collects Job Role, Experience Level, and Tech Stack from the candidate.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+Generates 5 AI-powered interview questions.
+
+Candidate provides responses to each question.
+
+AI evaluates answers and provides feedback and ratings.
+
+Tech Stack 🛠
+
+AI Model: Google Gemini for question generation and response evaluation.
+
+Backend: Firebase for real-time database and authentication.
+
+Authentication: Clerk for user management and secure login.
+
+Frontend: React.js / Next.js for UI.
+
+Database: Firestore for storing user interactions and results.
+
+Getting Started 🏁
+
+Clone the repository:
+
+git clone https://github.com/your-username/ai-mock-interview.git
+
+Navigate to the project directory:
+
+cd ai-mock-interview
+
+Install dependencies:
+
+npm install
+
+Start the application:
+
+npm start
+
+How It Works 🎯
+
+User selects job role, experience level, and tech stack.
+
+AI generates 5 relevant interview questions.
+
+User answers the questions.
+
+AI analyzes responses and provides feedback and a rating.
+
+Contributing 🤝
+
+Feel free to fork this repository, submit issues, or contribute by opening pull requests.
+
+License 📜
+
+MIT License
+
+🔗 Live Demo: your-demo-link.com
+
+nfigs.strictTypeChecked`
 - Optionally add `...tseslint.configs.stylisticTypeChecked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
